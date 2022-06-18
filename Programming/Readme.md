@@ -6,4 +6,6 @@
 
 This folder has all programming language learnt
 
-> > > > > > > 0d4291496a3dc0351669c6326cf68fec8c94c26f
+All languages are suitable to become a better DevOps Engineer
+
+#
