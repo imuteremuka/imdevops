@@ -1,0 +1,56 @@
+# Basics of Yaml
+## Intedention is important and
+
+## Key Value Pairs
+app: user-authenticatio
+port: 8080
+version: 1.0
+
+## Objects -
+### key value pairs can belong to objects
+### The key value pairs become attributes to the objects
+microservices:
+  app: user-authenticatio
+  port: 8080
+  version: 1.0
+
+
+## LIst - if you have many objects you can list them using the - sign
+
+microservices:
+  - app: app-1
+    port: 8080
+    version: 1.0
+
+## Boolean values - True/False, On/Off, Yes/No
+microservices:
+  - app: app-1
+    port: 8080
+    version: 1.0
+    deployed: true
+  - app: app-2
+    port: 8080
+    version: 1.0
+    deployed: no
+
+## Placeholders - double curl braces are used to cater for placeholders
+metadata: {{ .Values.service.name }}
+
+# Example of a Kubernetics yaml file
+apiVersion: 1.0
+kind : pod
+metadata : 
+  name :  nginx
+  labels : 
+    app : nginx
+spec : 
+  containers : 
+  - name : nginx-containers
+    image : nginx
+    ports : 
+    - containerPort : 80
+      volumeMounts :
+      - name : nginx-vol
+      - mountPath :  /opt/data
+
+
