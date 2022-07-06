@@ -41,7 +41,3 @@
 --- tuned-adm list - will show a list of all profiles
 --- tuned-adm profile <name> - will set a profile
 --- tuned-adm active - will show the current profile
-
-**_ Repositories _**
-
---- Create repositories for RPM (redhat package manager)

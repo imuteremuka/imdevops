@@ -20,5 +20,5 @@ class Account {
     }
 }
 
-let account = new Account()
+let account = new Account(1,)
 //# sourceMappingURL=index.js.map
