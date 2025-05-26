@@ -1,5 +1,5 @@
-## Goal:
-   Become proficient in core DevOps principles, tools, and practices within 6-9 months, leading to a potential Junior/Mid-level DevOps role or significant contribution in their current role.
+## Goal
+   Becoming proficient in core DevOps principles, tools, and practices within 6-9 months leads to a potential Junior/Mid-level DevOps role or significant contribution in the current role.
 
 ## DevOps Study Timetable:
  6-Month Roadmap 
